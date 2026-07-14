@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>root@portfolio: ~</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ TERMINAL TOP BAR / NAV ============ -->
+<header class="topbar">
+  <div class="topbar__dots"><span></span><span></span><span></span></div>
+  <nav class="topbar__nav">
+    <a href="#whoami" class="tab active" data-tab>Introduction</a>
+    <a href="#origin" class="tab" data-tab>Origin</a>
+    <a href="#certs" class="tab" data-tab>Certificates</a>
+    <a href="#experience" class="tab" data-tab>Leadership</a>
+    <a href="#community" class="tab" data-tab>VIA</a>
+    <a href="#contact" class="tab" data-tab>Contact</a>
+  </nav>
+  <div class="topbar__status"><span class="dot-live"></span>connected</div>
+</header>
+
+<main>
+
+  <!-- ============ SECTION 1: INTRODUCTION ============ -->
+  <section id="whoami" class="section hero">
+    <div class="terminal-window">
+      <div class="terminal-window__bar">
+        <div class="terminal-window__dots"><span></span><span></span><span></span></div>
+        <span class="terminal-window__title">Introduction</span>
+      </div>
+      <div class="terminal-window__body">
+        <p class="line"><span class="prompt">--</span> <span class="cmd">Who I Am</span></p>
+        <h1 class="typed-name" id="typedName"></h1>
+        <p class="line"><span class="prompt">--</span> <span class="cmd">My Background and Aspiration</span></p>
+        <p class="mission" id="typedMission"></p>
+        <div class="tags">
+          <span class="tag">AI Literacy</span>
+          <span class="tag">Penetration Testing</span>
+          <span class="tag">Vulnerability Scanning</span>
+          <span class="tag">Lifelong Learner</span>
+
+        </div>
+        <div class="hero__cta">
+          <a href="#origin" class="btn btn--primary">Origin</a>
+          <a href="#certs" class="btn btn--primary">Certificates</a>
+          <a href="#experience" class="btn btn--primary">Leadership</a>
+          <a href="#community" class="btn btn--primary">VIA</a>
+          <a href="#contact" class="btn btn--primary">Contact</a>
+        </div>
+      </div>
+    </div>
+    <p class="scroll-hint">scroll ↓</p>
+  </section>
+
+  <!-- ============ SECTION: HOW MY INTEREST STARTED ============ -->
+  <section id="origin" class="section origin">
+    <div class="section__head">
+      <p class="eyebrow">-- My Origin</p>
+      <h2>How It All Started</h2>
+      <p class="section__sub">The moment cybersecurity stopped being "just a subject" and became something I couldn't stop thinking about.</p>
+    </div>
+
+    <div class="origin-story">
+      <p class="origin-story__lede">
+        It started from Primary School.
+      </p>
+      <p>
+        I have a strong interest in coding and technology. My interest was piqued during primary school
+        when I joined the Robotics CCA, where I explored the basics of Robotics and learnt how to
+        code. I have continued to develop my skills through attending courses in coding and AI during
+        school holidays. I enjoy the logical thinking behind coding and the way it allows ideas to become
+        something real. 
+      </p>
+      <p>
+        That curiosity turned into late nights readings on Technology news articles, then
+        into exploring website creation, then into signing up for online courses related to AI and Cybersecurity 
+        during my school breaks. 
+      </p>
+      <p>
+        What kept me hooked was not the idea of "breaking in", but the puzzle of
+        thinking one step ahead of whoever's trying to get in, and building something that holds. 
+        That's the version of cybersecurity I want to keep getting better at: less about knowing every
+        tool, more about learning to think like both the attacker and the defender at once.
+      </p>
+      <p class="origin-story__closing">
+        Eventually, I aspire to pursue Cybersecurity in the future, with the long-term goal
+        of becoming a Cybersecurity professional and leader. 
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 2: CERTIFICATES ============ -->
+  <section id="certs" class="section certs">
+    <div class="section__head">
+      <p class="eyebrow">-- My Course Certificates</p>
+      <h2>Certificates &amp; What I Learned</h2>
+      <p class="section__sub">A running log of credentials earned and the skills each one left behind.</p>
+    </div>
+
+    <div class="cert-grid">
+
+     <article class="cert-card">
+        <div class="cert-card__head">
+          <span class="cert-card__status">VERIFIED</span>
+          <span class="cert-card__date">2026</span>
+        </div>
+        <h3>Introduction to AI</h3>
+        <p class="cert-card__issuer">Microsoft Learn</p>
+        <p class="cert-card__summary">
+          Learned the fundamentals of artificial intelligence, including machine learning, computer vision, natural language processing (NLP), and responsible AI. 
+          Gained an understanding of how AI is applied to solve real-world problems using Microsoft AI services.
+        </p>
+        <ul class="cert-card__skills">
+          <li>AI literacy</li>
+          <li>Machine learning</li>
+          <li>Natural leanguage processing</li>
+        </ul>
+        <a href="https://learn.microsoft.com/api/achievements/share/en-us/RyanLokGuoCheng-8827/8VEXUEKW?sharingId=6F1EA79B51DFC6D6" target="_blank" class="cert-card__link">View certificate →</a>
+      </article>
+
+       <article class="cert-card">
+        <div class="cert-card__head">
+          <span class="cert-card__status">VERIFIED</span>
+          <span class="cert-card__date">2026</span>
+        </div>
+         <h3>TryHackMe</h3>
+        <p class="cert-card__issuer">TryHackMe</p>
+        <p class="cert-card__summary">
+          Explored foundational cybersecurity topics such as network security, operating systems, vulnerabilities, and basic penetration testing in interactive labs.
+        </p>
+        <ul class="cert-card__skills">
+          <li>Penetration testing</li>
+          <li>Vulnerability scanning</li>
+          <li>Network security</li>
+        </ul>
+        <a href="INSERT LINK HERE" target="_blank" class="cert-card__link">View certificate →</a>
+      </article>
+
+      <article class="cert-card">
+        <div class="cert-card__head">
+          <span class="cert-card__status">IN PROGRESS</span>
+          <span class="cert-card__date">2026</span>
+        </div>
+        <h3>Cisco CCNA: Security</h3>
+        <p class="cert-card__issuer">Cisco</p>
+        <p class="cert-card__summary">
+          Currently working through firewall configuration, VPN design, and secure routing —
+          learning how the network layer itself becomes a line of defense.
+        </p>
+        <ul class="cert-card__skills">
+          <li>Firewall configuration</li>
+          <li>VPN &amp; secure tunneling</li>
+          <li>Network segmentation</li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+
+
+
+  <!-- ============ SECTION 3: LEADERSHIP EXPERIENCE ============ -->
+  <section id="experience" class="section experience">
+    <div class="section__head">
+      <p class="eyebrow">-- My Leadership Experiences</p>
+      <h2>Leadership</h2>
+      <p class="section__sub">Leadership roles, projects, and initiatives.</p>
+    </div>
+
+    <div class="exp-list">
+
+      <article class="exp-card">
+        <div class="exp-card__side">
+          <span class="exp-card__date">2023 — Present</span>
+        </div>
+        <div class="exp-card__main">
+          <h3>Student Councillor</h3>
+          <p class="exp-card__org">Presbyterian High School</p>
+          <p class="exp-card__summary">
+            Planned multiple school events such as Teachers' Day, National Day, Student Leaders Investiture.
+            Ensured clear communication and smooth delivery of school-wide events.
+            These experiences have shaped me into someone who executes activities with the aim of fostering connection and community within the school.
+          </p>
+          <div class="exp-card__evidence">
+            <img src="images/NationalDay.jpeg" alt="National Day event" class="evidence-photo">
+            <img src="images/StudentLeadersInvestiture.jpeg" alt="Student Leaders' Investiture" class="evidence-photo">
+            <img src="images/TeachersDay.jpeg" alt="Teachers Day" class="evidence-photo">
+
+        </div>
+      </article>
+
+      <article class="exp-card">
+        <div class="exp-card__side">
+          <span class="exp-card__date">2023 — Present</span>
+        </div>
+        <div class="exp-card__main">
+          <h3>CCA Level Head and Staff Sergaent</h3>
+          <p class="exp-card__org">Boys' Brigade</p>
+          <p class="exp-card__summary">
+            Mentored and guided CCA juniors with tough CCA drills.
+            Took initiative to organise a Company Bonding Event where I planned bonding games and prepared game prizes. 
+          </p>
+          <div class="exp-card__evidence">
+          <img src="images/BoysBrigade.jpeg" alt="Boys Brigade" class="evidence-photo">
+          <img src="images/Marching.jpeg" alt="Marching" class="evidence-photo">
+          </div>
+        </div>
+      </article>
+
+    
+      <article class="exp-card">
+        <div class="exp-card__side">
+           <span class="exp-card__date">2025 — 2026</span>
+        </div>
+        <div class="exp-card__main">
+          <h3>Secondary 1 Orientation Leader</h3>
+          <p class="exp-card__org">Presbyterian High School</p>
+          <p class="exp-card__summary">
+            Introduced new Secondary 1 students to the school's culture and values.
+            Planned and facilitated interactive games aimed at fostering class bonding and a strong school spirit.
+            Created programmes that eased students' transition into their new learning environment.
+          </p>
+          <div class="exp-card__evidence">
+          <img src="images/Sec1Ori.jpeg" alt="Sec 1 Orientation" class="evidence-photo">
+          <img src="images/OriIntro.jpeg" alt="Sec 1 Introduction" class="evidence-photo">
+          <img src="images/OriGames.jpeg" alt="Sec 1 Introduction" class="evidence-photo">
+          </div>
+        </div>
+      </article>
+
+
+      <article class="exp-card">
+        <div class="exp-card__side">
+           <span class="exp-card__date">2024 — 2026</span>
+        </div>
+        <div class="exp-card__main">
+          <h3>School Open House Ambassador</h3>
+          <p class="exp-card__org">Presbyterian High School</p>
+          <p class="exp-card__summary">
+            Welcomed prospective students and parents, answering questions about campus life and academic programmes while sharing my personal experiences. 
+            This experience strengthened my communication and public speaking skills while helping visitors make informed decisions and creating a positive first impression of the school.
+          </p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ SECTION 4: COMMUNITY INVOLVEMENT ============ -->
+  <section id="community" class="section community">
+    <div class="section__head">
+      <p class="eyebrow">-- My VIA Project </p>
+      <h2>Community Involvement</h2>
+      <p class="section__sub">Values in Action (VIA) projects — what I set out to do, and my reflections.</p>
+    </div>
+
+    <div class="via-list">
+
+      <article class="via-card">
+        <h3>Share-a-Gift Project</h3>
+        <div class="via-card__row">
+          <div class="via-card__block">
+            <span class="via-card__label">Goal</span>
+            <p>Packed hampers for the needy and actively reached out to passer-bys to gather donations. 
+              Explained the purpose of the initiative to enhance awareness and support for vulnerable communities in Singapore. </p>
+          </div>
+          <div class="via-card__block">
+            <span class="via-card__label">Reflection</span>
+            <p>This taught me the importance of supporting vulnerable groups, so that no one is left behind as Singapore progresses.</p>
+          </div>
+        </div>
+        <div class="exp-card__evidence">
+          <img src="images/ShareBB.jpeg" alt="Share a gift" class="evidence-photo">
+        </div>
+      </article>
+
+      
+    </div>
+
+  </section>
+
+<!-- ============ SECTION: CONTACT ============ -->
+  <section id="contact" class="section contact">
+    <div class="section__head">
+      <p class="eyebrow">-- Contact Information </p>
+      <h2>Get In Touch</h2>
+      <p class="section__sub">Feel free to reach out!</p>
+    </div>
+
+    <div class="contact-card">
+      <a href="mailto:youremail@example.com" class="contact-row">
+        <span class="contact-row__icon">✉️</span>
+        <span class="contact-row__text">ryanlok29@gmail.com</span>
+      </a>
+      <a href="tel:+6591234567" class="contact-row">
+        <span class="contact-row__icon">📞</span>
+        <span class="contact-row__text">+65 8782 6646</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; 2026 · By Ryan Lok Guo Cheng</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
